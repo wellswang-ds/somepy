@@ -13,8 +13,13 @@ print(b)
 
 
 jj = [[i+3*j+1 for i in range(3)] for j in range(3)]
-[[x+i for i in range(3)] for x in range(1,8,3)]
-print(jj)
 
+a = 12
+b = 3
+k = [[x+i for i in range(b)] for x in range(1,a+1,b)]
+kk= [x for x in range(1,10,3)]
+print(jj)
+print(k)
+print(kk)
 
 print(a)
