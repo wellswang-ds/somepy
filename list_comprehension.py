@@ -10,3 +10,7 @@ print(b)
 # a = [0,1,2]
 # b = [[i+3*j+1 for i in a] for j in a]
 # print(b)
+
+
+jj = [[i+3*j+1 for i in range(3)] for j in range(3)]
+print(jj)
