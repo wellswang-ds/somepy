@@ -1,6 +1,6 @@
 import pandas as pd
 
-path = '/Users/wells_wang/Desktop/nba.csv'
+path = '/Users/wells_wang/PycharmProjects/Python/wellsytheman/py_test/data'
 files = pd.read_csv(path,header=0)
 print(files.head())
 
