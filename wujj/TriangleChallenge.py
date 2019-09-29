@@ -41,7 +41,6 @@ def triangle(radius, length):
             for i in range(2):
                 trian.left(120)
                 trian.forward(length)
-    return radius,length
 
 
 
