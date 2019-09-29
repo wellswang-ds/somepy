@@ -4,7 +4,7 @@
 import csv
 import numpy as np
 
-csvfile= open('/Users/wells_wang/Desktop/mpg.csv') # open the file into a variable
+csvfile=open('C:/Users/wuuj0/Desktop/PDM/mpg.csv') # open the file into a variable
 mpg = list(csv.reader(csvfile)) # read the file as csv and then transfer it to a list
 mpg[:3] # check out the first three items in our list.
 
